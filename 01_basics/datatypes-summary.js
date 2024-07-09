@@ -19,7 +19,7 @@ console.log(id === anotherId);
 //array, objects, functions
 
 
-const heros = ["shaktiman" ,iron man];
+const heros = ["shaktiman" ,ironman];
 let myobj = {
     name: "saurabh",
     age :22,
@@ -39,3 +39,36 @@ console.log(typeof bigNumber); //output is undefined
 //boolean - boolean
 //number - number
 //function - function object
+
+
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// stack memory(primitive) , Heap memory(non-primitive)
+
+let myname = "saurabh"
+ let anothername = myname
+ anothername = "kumar"
+
+ console.log(mynamme);   //output is saurabh
+ console.log(anothername); //output is kumar
+ //it will all goes to the stack memory
+
+
+
+ let user ={
+    email : "user@google.com",
+    upi: "iser@ybl"
+ }  
+ ///it will all goes to the heap memory
+
+ let userTwo = userOne;
+ userTwo.email = "saurabhk09@google.com"
+
+ console.log(userOne.email); // saurabhk09@google.com
+ console.log(userOne.email); // saurabhk09@google.com
+ 
+ //the email id is changed into both the places
