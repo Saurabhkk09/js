@@ -1,3 +1,5 @@
+//JavaScript is the Programming Language for the Web.JavaScript can update and change both HTML and CSS.
+//JavaScript can calculate, manipulate and validate data.
 const accountId = 144553
 let accountEmail = "hitesh@google.com"
 var accountPassword = "12345"
