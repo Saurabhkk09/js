@@ -32,7 +32,7 @@ console.log(real_another_array);
 
   console.log(Array.isArray("Saurabh"))
   console.log(Array.from("Saurabh"))
-  console.log(Array.from{name: "saurabh"})) //interesting case 
+  console.log(Array.from({name: "saurabh"})) //interesting case 
   // o/p willl be [] 
 
 /*
